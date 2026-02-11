@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>PrintMash - Ranking de Impresiones 3D</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>🖨️ PrintMash</h1>
+        <p class="subtitle">
+            ¿Qué modelo 3D sería más rentable imprimir y vender?
+        </p>
+
+        <div class="comparison-container">
+            <div class="option" id="optionA" onclick="vote('A')">
+                <h2 id="titleA"></h2>
+            </div>
+
+            <div class="vs">VS</div>
+
+            <div class="option" id="optionB" onclick="vote('B')">
+                <h2 id="titleB"></h2>
+            </div>
+        </div>
+
+        <div class="ranking-container">
+            <h2>📊 Ranking Actual</h2>
+            <ol id="ranking"></ol>
+        </div>
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>
