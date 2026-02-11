@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fdf6f9;
+    color: #555;
+}
+
+.container {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #b39ddb; /* Lavanda pastel */
+}
+
+.subtitle {
+    margin-top: 10px;
+    font-size: 1.1em;
+    color: #78909c;
+}
+
+.comparison-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+    flex-wrap: wrap;
+}
+
+.option {
+    width: 260px;
+    height: 160px;
+    background-color: #e0f7fa; /* Celeste pastel */
+    margin: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    padding: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+}
+
+.option:nth-child(1) {
+    background-color: #d1c4e9; /* Lavanda suave */
+}
+
+.option:nth-child(3) {
+    background-color: #ffe0b2; /* Durazno pastel */
+}
+
+.option:hover {
+    transform: scale(1.07);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.1);
+}
+
+.vs {
+    font-size: 1.5em;
+    color: #90a4ae;
+    margin: 0 10px;
+}
+
+.ranking-container {
+    margin-top: 40px;
+}
+
+ol {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: left;
+    background-color: #e8f5e9; /* Verde menta pastel */
+    padding: 20px 30px;
+    border-radius: 15px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.05);
+}
+
+li {
+    margin: 8px 0;
+    font-weight: 500;
+}
